@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width:100%;
+  min-height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #F3FAFF;
+}
+
+i:hover {
+  cursor: pointer;
+}
+.title {
+  color: #2699FB;
+  position: relative;
+  bottom: 4em;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  position: relative;
+  bottom: 12em;
+  height: 23em;
+  -webkit-box-shadow: -1px 1px 13px 0px rgba(0,0,0,0.44);
+-moz-box-shadow: -1px 1px 13px 0px rgba(0,0,0,0.44);
+box-shadow: -1px 1px 13px 0px rgba(0,0,0,0.44);
+}
+h5 {
+  text-align: center;
+  color: #2A2828;
+  padding-top: 30px;
+  font-size: 25px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
+.logo {
+  bottom: 1em;
+  position: relative;
+   width: 200;
+   height: 200px;
+}
+.my-btn {
+   background-color: #2699FB;
+   padding: 0.75em;
+   border-radius: 10px;
+   color: white;
+   -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.44);
+}
+
+.input {
+  margin-left: 20px;
+  padding: 1.5em;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+  -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.44);
+}
+
+p {
+ color: #2699FB;
+ font-size: 18px;
+}
+
+.text-box {
+  background-color: #F5F5F5;
+  width: 93%;
+  padding-left: 20px;
+  border-radius: 15px;
+  margin-top: 2em;
+  display: block;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-box {
+  height: 18vh;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1023px) { 
+ .box {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    position: relative;
+    bottom: 4em;
+    height: 23em;
+  }
+  input {
+    width: 95% !important;
+  }
+  .my-btn {
+    margin: 0px 0px 0px -28px;
+  }
+.title { 
+  color: #2699FB;
+  position: relative;
+  bottom: 2em;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+.logo {
+  height: 150px;
+}
+ }
+
+ @media only screen and (max-width: 800px) {
+     body{
+       overflow: hidden;
+     }
+
+     .box {
+      margin-left: 0.5em;
+      display: block;
+      margin-left: 1e;
+      margin-right: auto;
+      width: 100%;
+      position: relative;
+      bottom: -0.5em;
+      height: 30em;
+  }
+  .scroll-box {
+    height: 28vh;
+}
+.input {
+  margin-left: 0px;
+  padding: 1.5em;
+
+}
+.title {
+  color: #2699FB;
+  position: relative;
+  bottom: 0em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.image {
+  display: none;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.my-btn {
+  display: inline-block;
+  margin-top: 1.5em;
+}
+.logo {
+  bottom: 1em;
+  position: relative;
+  left: 7em;
+  width: 200;
+  height: 110px;
+}
+} 
